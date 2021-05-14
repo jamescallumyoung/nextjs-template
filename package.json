@@ -11,7 +11,9 @@
     "pretty": "prettier --write ./src",
     "start": "yarn run start:dev",
     "start:dev": "next dev",
-    "start:prod": "yarn run build && next start"
+    "start:prod": "yarn run build && next start",
+    "storybook:build": "build-storybook -c .storybook",
+    "storybook:start": "start-storybook -p 6006 -c .storybook"
   },
   "dependencies": {
     "next": "10.2.0",
@@ -20,9 +22,16 @@
     "rsuite": "^4.10.1"
   },
   "devDependencies": {
+    "@babel/core": "^7.14.2",
+    "@storybook/addon-actions": "^6.2.9",
+    "@storybook/addon-essentials": "^6.2.9",
+    "@storybook/addon-links": "^6.2.9",
+    "@storybook/react": "^6.2.9",
+    "@types/node": "^15.3.0",
     "@types/react": "^17.0.5",
     "@typescript-eslint/eslint-plugin": "^4.23.0",
     "@typescript-eslint/parser": "^4.23.0",
+    "babel-loader": "^8.2.2",
     "eslint": "^7.26.0",
     "eslint-config-prettier": "^8.3.0",
     "eslint-plugin-react": "^7.23.2",
