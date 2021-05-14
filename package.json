@@ -3,14 +3,15 @@
   "version": "0.1.0",
   "private": true,
   "scripts": {
-    "prepare": "husky install",
-    "lint": "eslint ./src",
-    "pretty": "prettier --write ./src",
+    "build": "next build",
     "format:check": "eslint ./src && prettier --check ./src",
     "format:fix": "eslint --fix ./src && prettier --write ./src",
-    "dev": "next dev",
-    "build": "next build",
-    "start": "next start"
+    "lint": "eslint ./src",
+    "prepare": "husky install",
+    "pretty": "prettier --write ./src",
+    "start": "yarn run start:dev",
+    "start:dev": "next dev",
+    "start:prod": "yarn run build && next start"
   },
   "dependencies": {
     "next": "10.2.0",
