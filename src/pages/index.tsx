@@ -1,6 +1,7 @@
 import { NextPage } from "next";
 import Head from 'next/head';
 import Image from 'next/image';
+import { Button } from "rsuite";
 
 import styles from '../styles/Home.module.css';
 
@@ -52,6 +53,9 @@ const Home: NextPage = () => {
             </p>
           </a>
         </div>
+        <Button appearance="primary" href="https://rsuitejs.com/">
+          Getting started
+        </Button>
       </main>
 
       <footer className={styles.footer}>
