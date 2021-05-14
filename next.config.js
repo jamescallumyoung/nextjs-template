@@ -1,5 +1,4 @@
-const withPlugins = require('next-compose-plugins');
-const withLess = require("next-with-less");
+const withPlugins = require("next-compose-plugins");
 
 // Next Config
 const nextConfig = {
@@ -9,8 +8,6 @@ const nextConfig = {
 };
 
 // Plugin Config
-const plugins = [
-  withLess,
-];
+const plugins = [];
 
 module.exports = withPlugins(plugins, nextConfig);
