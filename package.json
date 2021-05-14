@@ -3,6 +3,7 @@
   "version": "0.1.0",
   "private": true,
   "scripts": {
+    "prepare": "husky install",
     "lint": "eslint ./src",
     "pretty": "prettier --write ./src",
     "format:check": "eslint ./src && prettier --check ./src",
@@ -25,6 +26,8 @@
     "eslint-config-prettier": "^8.3.0",
     "eslint-plugin-react": "^7.23.2",
     "eslint-plugin-react-hooks": "^4.2.0",
+    "husky": "^6.0.0",
+    "lint-staged": "^11.0.0",
     "next-compose-plugins": "^2.2.1",
     "prettier": "2.3.0",
     "typescript": "^4.2.4"
