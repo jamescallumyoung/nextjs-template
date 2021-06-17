@@ -5,14 +5,7 @@ module.exports = {
       tsconfig: "./tsconfig-jest.json",
     },
   },
-  // Transforms tell jest how to process our non-javascript files.
-  // We're using ts-jest for .ts(x) files. You *can* just use
-  // babel-jest for both js and ts if you already have babel set
-  // up to compile typescript files.
-  transform: {
-    "^.+\\.spec.tsx?$": "ts-jest",
-    // "^.+\\.[jt]sx?$": "babel-jest", // If you're using babel uncomment this line
-  },
+  preset: "ts-jest",
   // In webpack projects, we often allow importing things like css files or jpg
   // files, and let a webpack loader plugin take care of loading these resources.
   // Jest unit tests are run in node.js which doesn't know how to import these,
