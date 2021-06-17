@@ -57,6 +57,9 @@ const Home: NextPage = () => {
         <Button appearance="primary" href="https://rsuitejs.com/">
           Getting started
         </Button>
+        <div className={"m-4 bg-black text-white"}>
+          This is styled by tailwind!
+        </div>
       </main>
 
       <footer className={styles.footer}>
