@@ -4,6 +4,7 @@ import Image from "next/image";
 import React from "react";
 import { Button } from "rsuite";
 
+import HouseIcon from "../components/icons/house.svg";
 import styles from "../styles/Home.module.css";
 
 const Home: NextPage = () => {
@@ -57,6 +58,7 @@ const Home: NextPage = () => {
         <Button appearance="primary" href="https://rsuitejs.com/">
           Getting started
         </Button>
+        <HouseIcon />
         <div className={"m-4 bg-black text-white"}>
           This is styled by tailwind!
         </div>
