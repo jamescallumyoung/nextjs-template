@@ -3,7 +3,6 @@ const isDevelopment = process.env.NODE_ENV === "development";
 module.exports = {
   stories: ["../src/**/*.stories.mdx", "../src/**/*.stories.@(js|jsx|ts|tsx)"],
   addons: [
-    "@storybook/preset-typescript",
     {
       name: "@storybook/addon-postcss",
       options: {
