@@ -1,10 +1,14 @@
-<h1 align="center">nextjs-ts-template</h1>
+<h1 align="center">nextjs-ts-template ⚠️</h1>
 <p>
   <img alt="Version" src="https://img.shields.io/badge/version-0.3.0-blue.svg?cacheSeconds=2592000" />
   <a href="./LICENSE" target="_blank">
     <img alt="License: Unlicense" src="https://img.shields.io/badge/License-Unlicense-yellow.svg" />
   </a>
 </p>
+
+> ⚠️ This repo is deprecated. Next.js has progressed a lot since this repo was created, and recommendations for how to set up a project have changed.
+
+---
 
 > A template for React projects using NextJS and TypeScript.
 
